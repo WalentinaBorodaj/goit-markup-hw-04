@@ -293,10 +293,7 @@ img {
   margin-right: 10px;
 
 }
-.social-icon{
- 
-  
-} 
+
 .social-link:hover,
 .social-link:focus{
   fill: #fff;
@@ -323,10 +320,7 @@ background-color: #fff;
   padding-top: 30px;
 padding-bottom: 30px;
 }
-.social-link:hover .social-icon,
-.social-link:focus .social-icon{
-  fill: var(--accent-color);
-}
+
 .social-link:hover
 .social-link:focus{
   background-color:var(--accent-color);
@@ -360,6 +354,50 @@ padding-bottom: 30px;
   margin-bottom: 16px;
   
 }
+/* ----------clients --------------*/
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-item{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  }
+.clients-title{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  }
+
+.clients-logo{
+width: 170px;
+height: 92px;
+fill: #AFB1B8;
+border: 1px solid #AFB1B8;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+
+.clients-icon{
+  fill: #AFB1B8;
+  
+ }
+  .clients-link:hover .clients-icon,
+  .clients-link:focus .clients-icon{
+    fill: #2196F3; 
+}
+.clients-logo:hover,
+.clients-logo:focus{
+  border: 1px solid #2196F3;
+
+}
+
 
 /* --------FOOTER--------------- */
 .footer {
