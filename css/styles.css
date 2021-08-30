@@ -161,6 +161,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
 }
 
 .box-title {
@@ -198,7 +199,7 @@ img {
 
 .about{
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 
 }
 
@@ -209,13 +210,16 @@ img {
   margin-right: 30px;
 }
 .about-icon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  height: 120px;
+  padding: 0 100px;
   margin-bottom: 30px;
-  background: #F5F4FA;;
+  background: #F5F4FA;
+  border: none;
+  border-radius: 4px;
+}
+.about-img{
+  display: block;
+  height: 120px;
+  fill: #212121;
 }
 
 .about-title {
@@ -243,7 +247,8 @@ img {
 /* --------WORKS--------------------- */
 .works{
   padding-bottom: 94px;
-  padding-top: 94px;
+  /* padding-top: 94px; */
+  
 }
 
 .works-list {
@@ -309,13 +314,15 @@ img {
   width: 100%;
   height:100% ;
   fill: #AFB1B8;
- 
-display:flex;
+  display:flex;
 align-items: center;
 justify-content: center;
 border-radius: 50%;
 background-color: #fff;
 }
+
+
+ 
 .masters-item-content {
   padding-top: 30px;
 padding-bottom: 30px;
@@ -351,7 +358,7 @@ padding-bottom: 30px;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 16px;
+ 
   
 }
 /* ----------clients --------------*/
@@ -426,7 +433,7 @@ margin-right: 10px;
 } 
 .footer-social-item{
   display: flex;
-  padding-top: 20px;
+  
 }
 
 .footer-logo {
@@ -477,7 +484,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-padding-top: 12px;
+margin-bottom: 20px;
 }
 .footer-social-link{
   width: 100%;
